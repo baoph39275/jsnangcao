@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced DOM and Events</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .section { margin-bottom: 50px; border: 1px solid #ccc; padding: 20px; }
+        button { padding: 10px 20px; margin: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>Advanced DOM and Events Demo</h1>
+
+    <div id="parent" class="section">
+        Parent Div
+        <button id="child">Click Me (Bubbling)</button>
+    </div>
+
+    <button id="scrollBtn">Scroll to Section 2</button>
+
+    <div id="section2" class="section" style="margin-top: 500px;">
+        Section 2
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
